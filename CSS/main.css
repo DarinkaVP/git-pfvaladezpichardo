@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box
+    text-decoration none;
+    list-style: none;
+    font-family: "Raleway", sans-serif;
+
+
+}
+
+body{
+    background-color:deeppink;
+}
+
+header{
+    margin: 0px 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.menu .navbar ul li{
+    position:relative;
+    float:20px;
+    color:ghostwhite
+    display block;
+    font-weight: 600;
+}
+
+.containercontact {
+    display: flex;
+    background-color: darkturquoise;
+    height:750px;
+    width: 1000px;
+    box-shadow: 0 0 20px darkblue;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 25px;
+}
+
+.form{
+    padding: 30px 80px;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    font-size: 45px;
+    color: deeppink;
+    font-weight: 600px;
+    margin-bottom: 25px;
+}
+
+.form p {
+    font-size: 16px;
+    color:hotpink;
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 15px;
+    color:blue;
+    margin-bottom: 15px;
+}
+
+.box{
+    border: 0;
+    background-color:beige;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    outline: none;
+
+}
+
+.submit {
+    background-color: hotpink;
+    border: 0;
+    padding: 15px;
+    color:azure;
+    font-size: 16px;
+    border-radius: 25px;
+    width: 250px;
+    margin-top: 25px;
+    box-shadow: 0 0 20px darkblue;
+}
+
+.contactimage {
+    padding: 10%;
+}
+
+.img {
+    width: 350px;
+    margin-bottom: 75px;
+    
+
+}
+
+
+@media (max-width:900px){
+    .containercontact{
+        width:350px;
+        height: 800px;
+        margin-top: 50px;
+
+    }
+
+
+    .form{
+        width: 100%;
+        padding: 30px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+footer{
+    color:darkviolet
+    text-align center;
+
+
+}
